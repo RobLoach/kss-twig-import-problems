@@ -1,0 +1,11 @@
+{
+  "name": "ksstest",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node_modules/.bin/kss --source=src/components --builder=src/style-guide/builder --namespace='@mytheme:src/components' --extend-drupal8"
+  },
+  "devDependencies": {
+    "kss": "^3.0.0-beta.23",
+    "twig": "1.11.1"
+  }
+}
